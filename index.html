@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=devide-widht, initial-scale=1.0">
+    <title>Mundo Mario</title>
+    <link rel="shortcut icon" href="/img/mario shortcut.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="stytle.css">
+
+    <header>
+        <div class="container">
+            <img src="/img/mario shortcut.png" class="container-imagem">
+            <h1 class="container-titulo">Mundo Mario</h1>
+            <ul class="opcoes">
+                <li class="itens"><a href="index.html">Home</a></li>
+                <li class="itens"><a href="#Personagens">Personagens</a></li>
+                <li class="itens"><a href="#Reinos">Reinos</a></li>
+            </ul>
+        </div>
+
+        <div class="toggle-button" onclick="toggleDarkMode()">
+        <i class="icon" id="sun-icon">☀️</i> 
+        <i class="icon" id="moon-icon" style="display: none;">🌙</i>
+        </div>
+
+    </header>
+
+    <body>
+        <h2>O que é o Mario Bros?</h2>
+        <div class="Historia-Mario">
+            <p>Mario Bros. é um jogo eletrônico de plataforma para arcades criado por Shigeru Miyamoto, desenvolvido pela Nintendo Research & Development 1 e publicado pela Nintendo em 1983. Foi colocado como um minijogo na série Super Mario Advance e em vários outros jogos da franquia.</p>
+            <img src="/img/historia mario.jpg" class="historia-imagem">
+        </div>
+        <div class="Historia-Mario2">
+            <img src="/img/historia mario2.gif" class="historia-imagem2">
+            <p>Mario Bros. apresenta dois irmãos encanadores, Mario e Luigi, tendo que investigar o aparecimento de estranhas criaturas nos encanamentos de Nova York, com o objetivo derrotar todos os inimigos de cada fase. A mecânica dos personagens envolve apenas correr e pular. Diferentemente de outros jogos da franquia, os jogadores não podem eliminar os inimigos pulando em cima deles. Cada fase consiste em um conjunto de plataformas com canos em cada canto da tela, e, além disso, há um objeto chamado "POW" no centro, que, quando ativado, afeta todos os inimigos. As fases contêm somente uma tela fixa, ou seja, os inimigos e o jogador, caso passem pelo limite de um lado,reaparecem do outro.</p>
+        </div>
+
+        <section class="carrossel">
+            <h3 class="carrossel__titulo" id="Personagens">Personagens</h3>
+            <!-- Slider main container -->
+            <div class="swiper"> 
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div> 
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/Goomba.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/Goomba.png" class="swiper-image">
+                        <h3>Goomba</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/donkey kong.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/donkey kong.png" class="swiper-image">
+                        <h3>Donkey Kong</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/kamek.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/kamek.png" class="swiper-image">
+                        <h3>Kamek</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/bowser.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/bowser.png" class="swiper-image">
+                        <h3>Bowser</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/KoopaNSMB.webp" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/KoopaNSMB.webp" class="swiper-image">
+                        <h3>Koopa</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/luigi.webp" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/luigi.webp" class="swiper-image">
+                        <h3>Luigi</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/mario.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/mario.png" class="swiper-image">
+                        <h3>Mario</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/nabbit.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/nabbit.png" class="swiper-image">
+                        <h3>Nabbit</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+                    <!-- Slider main container -->
+                    <div class="swiper"> 
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div> 
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/planta piranha.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/planta piranha.png" class="swiper-image">
+                        <h3>Planta Piranha</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/Princess-Daisy.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/Princess-Daisy.png" class="swiper-image">
+                        <h3>Princesa Daisy</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/princesa peach.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/princesa peach.png" class="swiper-image">
+                        <h3>Princesa Peach</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/rei bu.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/rei bu.png" class="swiper-image">
+                        <h3>Rei Boo</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/toad.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/toad.png" class="swiper-image">
+                        <h3>Toad</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/RosalinaSMG.webp" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/RosalinaSMG.webp" class="swiper-image">
+                        <h3>Rosalina</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/Waluigi.webp" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/Waluigi.webp" class="swiper-image">
+                        <h3>Waluigi</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/wario.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/wario.png" class="swiper-image">
+                        <h3>Wario</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/yoshi.png" class="swiper-image">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="/img/yoshi.png" class="swiper-image">
+                        <h3>Yoshi</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+
+        <h2 id="Reinos">Reinos e ilhas no Mario</h2>
+        <h5>Beanbean Kingdom</h5>
+        <div class="Historia-Mario">
+            <p>O Beanbean Kingdom é um reino importante que compartilha sua fronteira nordeste com o Mushroom Kingdom. É o cenário principal do jogo Mario & Luigi: Superstar Saga e seu remake, sendo também sua única aparição. O reino inclui montanhas secas, vales, uma floresta e uma praia.</p>
+            <img src="/img/beanbean kingdon.webp" class="historia-imagem">
+        </div>
+        <h5>Dinosaur Land</h5>
+        <div class="Historia-Mario2">
+            <img src="/img/Dinosaur_Land.webp" class="historia-imagem2">
+            <p>Dinosaur Land, também conhecida como Dinosaur Island, é um arquipélago habitado por dinossauros e a região onde Mario, Luigi e a Princesa Toadstool vão de férias em Super Mario World . Dinosaur Land geralmente tem uma aparência verde exuberante, junto com várias colinas. Também possui algumas montanhas, cavernas, uma área de floresta e um vale subterrâneo. Quase não há industrialização em Dinosaur Land exceto para Ghost Houses, e as fortalezas e castelos construídos por Bowser e os Koopalings. Os Yoshis são habitantes notáveis ​​da Terra dos Dinossauros e vivem no primeiro mundo, a Ilha de Yoshi. Apesar do nome, vários dos habitantes de Dinosaur Land não são dinossauros, como Dolphins e Swoopers. Outros dinossauros encontrados na ilha incluem Blarggs, Dino-Rhinos, Dino-Torchs, Eeries, Rexes e Reznors.</p>
+        </div>
+        <h5>Kitchen Island</h5>
+        <div class="Historia-Mario">
+            <p>Kitchen Island é o cenário de Wario Land: Super Mario Land 3. É uma ilha em forma de caveira que é a base do Capitão Syrup e dos Piratas do Açúcar Mascavo. Existem sete áreas no jogo, cada uma contendo um tesouro escondido e um chefe no final de cada área. O tema comum a todas as áreas da ilha é que cada uma está relacionada com a comida ou algo da cozinha, no nome e às vezes na aparência. A Kitchen Island está localizada no Mar de Capri.</p>
+            <img src="/img/kitchen land.png" class="historia-imagem">
+        </div>
+        <h5>Mushroom Kingdom</h5>
+        <div class="Historia-Mario2">
+            <img src="/img/MushroomKingdom.webp" class="historia-imagem2">
+            <p>O Mushroom Kingdom é o cenário principal da franquia Super Mario, aparecendo pela primeira vez em Super Mario Bros. Sua aparência varia de jogo para jogo, muitas vezes coincidindo com o gênero. No entanto, as características comuns do reino que são compartilhadas entre os jogos são suas colinas altas e redondas, a presença de objetos flutuantes como? Blocos e moedas, Warp Pipes, pastagens listradas e sujeira em camadas. O reino é governado pela Princesa Peach e os habitantes principais são Toads.</p>
+        </div>
+        <h5>Reino dos Koopas</h5>
+        <div class="Historia-Mario">
+            <p>World 6 (também conhecido como Koopa Kingdom ) é o sexto e último mundo de Super Mario World 2: Yoshi's Island e seu relançamento Yoshi's Island: Super Mario Advance 3, lembrando a paisagem e o ambiente de Yoshi's Island. O mundo contém oito níveis normais. Seu mini-chefe é Tap-Tap the Red Nose; o chefe principal e final é Baby Bowser. Este mundo inclui muitos obstáculos perigosos, incluindo lava e picos, o tema do mundo é uma paisagem árida no pôr do sol/céu noturno estrelado. Seu Extra Stage é Extra 6: Ultimate Castle Challenge, seu Secret Stage é Secret 6: Endless World of Yoshis e seu Bonus Challengeé Bônus 6: Caça-níqueis.</p>
+            <img src="/img/Reino_dos_Koopas.webp" class="historia-imagem">
+        </div>
+        <h5>Sarasaland</h5>
+        <div class="Historia-Mario2">
+            <img src="/img/sarasaland.jpg" class="historia-imagem">
+            <p>Sarasaland é o cenário de Super Mario Land. O reino é um país governado pela princesa Daisy e consiste em quatro alas administrativas separadas chamadas de reinos, o que também pode caracterizar Sarasaland como um império. Daisy é a única governante conhecida de toda Sarasaland, embora ela tenha mencionado seu pai em jogos como Mario Party 3 e Fortune Street.</p>
+        </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                slidesPerView: 4,
+                pagination: {
+                        el: '.swiper-pagination',
+                        type: 'bullets',
+                        },
+                });
+            </script>
+
+<script>
+    function toggleDarkMode() {
+      var body = document.querySelector('body');
+      var sunIcon = document.getElementById('sun-icon');
+      var moonIcon = document.getElementById('moon-icon');
+    }
+      body.classList.toggle('dark')
+
+    function toggleDarkMode() {
+      var body = document.querySelector('body');
+      var sunIcon = document.getElementById('sun-icon');
+      var moonIcon = document.getElementById('moon-icon');
+    }
+      body.classList.toggle('')
+
+    function toggleDarkMode() {
+      var body = document.querySelector('body');
+      var sunIcon = document.getElementById('sun-icon');
+      var moonIcon = document.getElementById('moon-icon');
+
+      body.classList.toggle('dark-mode');
+
+      if (body.classList.contains('dark-mode')) {
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'inline';
+      } else {
+        sunIcon.style.display = 'inline';
+        moonIcon.style.display = 'none';
+      }
+    }
+  </script>
+
+    </body>
+
+    <footer>
+        <div class="container">
+            <img src="/img/mario shortcut.png" class="container-imagem">
+            <h1 class="container-titulo">Mundo Mario</h1>
+            <p class="textorodape">© 2023 Criado por Gabriel H. C Martins - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+</html>
